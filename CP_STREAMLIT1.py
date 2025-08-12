@@ -4,7 +4,7 @@ import streamlit as st
 
 #loading the model
 
-model = pickle.load(open(r"C:\Users\the6t\OneDrive\Desktop\deployment\customer_churn31.pkl", "rb" ))
+model = pickle.load(open("customer_churn31.pkl", "rb" ))
 
 def customer_prediction(user_input):
     # convert data to an array
