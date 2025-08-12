@@ -4,7 +4,7 @@ import streamlit as st
 
 #loading the model
 
-model = pickle.load(open(r"C:\Users\the6t\OneDrive\Desktop\deployment\financial inclusion.pkl", "rb" ))
+model = pickle.load(open("financial inclusion.pkl", "rb" ))
 
 
 country_mapping = {
